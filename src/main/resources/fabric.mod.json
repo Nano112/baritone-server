@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "id": "baritone-server",
+    "version": "${version}",
+    "name": "Baritone Server",
+    "description": "Server-side Baritone pathfinding for mob control",
+    "authors": [
+        "Nano112"
+    ],
+    "contact": {
+        "sources": "https://github.com/Nano112/baritone-server"
+    },
+    "license": "LGPL-3.0",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.baritoneserver.BaritoneServerMod"
+        ]
+    },
+    "accessWidener": "baritone-server.accesswidener",
+    "mixins": [
+        "baritone-server.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.18.2",
+        "minecraft": "~1.21.11",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}

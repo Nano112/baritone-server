@@ -1,0 +1,43 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+*.launch
+.metadata/
+bin/
+nb-configuration.xml
+nbproject/
+
+# Fabric / Loom
+remappedSrc/
+run/
+logs/
+*.loom.lock
+
+# Java
+*.class
+hs_err_pid*
+replay_pid*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Secrets / env
+.env
+*.local
+.claude
+.history

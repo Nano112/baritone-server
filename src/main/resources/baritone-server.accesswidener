@@ -1,0 +1,7 @@
+accessWidener v2 named
+
+# Allow setting block state on Display.BlockDisplay
+accessible method net/minecraft/world/entity/Display$BlockDisplay setBlockState (Lnet/minecraft/world/level/block/state/BlockState;)V
+
+# Allow setting transformation on Display
+accessible method net/minecraft/world/entity/Display setTransformation (Lcom/mojang/math/Transformation;)V
